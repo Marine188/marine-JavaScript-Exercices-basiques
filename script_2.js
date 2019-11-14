@@ -7,3 +7,5 @@ function factorial(n) {
 }
 
 console.log(factorial(number)); //on retourne donc la factorielle du nombre entré
+
+//en utilisant la commande prompt() qui ouvre une fenêtre d'input dans ton navigateur
