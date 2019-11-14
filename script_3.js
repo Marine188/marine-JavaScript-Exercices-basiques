@@ -2,7 +2,7 @@ number = prompt("Salut, bienvenue dans ma super pyramide ! Combien d'étages veu
 
 function Pyramid(number) {
 
-    for (var i = 1; i <= number; i++) { // j'ouvre la boucle qui part de 1 au premier tour, tourne jusqu'à arriver au nombre choisi, et rajoute 1 à chaque tour
+    for (var i = 1; i <= number; i++) { // j'ouvre la boucle qui part de 1 au premier tour, tourne jusqu'à arriver au nombre choisi, et rajoute 1 à chaque tour,
 
       var row = ''; // je crée la variable row qui démarre vide
 
@@ -19,3 +19,7 @@ function Pyramid(number) {
   }
 
 Pyramid(number);
+
+// i ++ veut dire fait i = i +1 donc incrémenté de 1
+// Pour (la valeur initial  i = 1, la condition : i inférieur ou égal au number; la maniere d'incrémenter i ++)
+// row : rang
